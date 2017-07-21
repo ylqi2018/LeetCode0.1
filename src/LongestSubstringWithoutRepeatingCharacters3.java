@@ -1,4 +1,3 @@
-package interview;
 
 import java.util.HashMap;
 import java.util.HashSet;
@@ -9,7 +8,6 @@ public class LongestSubstringWithoutRepeatingCharacters3 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-
 	}
 	
 	public int lengthOfLongestSubstring(String s) {
