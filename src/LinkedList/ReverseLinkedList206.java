@@ -1,6 +1,6 @@
 package LinkedList;
 
-public class ReverseLinkedList {
+public class ReverseLinkedList206 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,7 +9,7 @@ public class ReverseLinkedList {
 		ListNode C = new ListNode(3);
 		head.next = B;
 		B.next = C;
-		ReverseLinkedList rl = new ReverseLinkedList();
+		ReverseLinkedList206 rl = new ReverseLinkedList206();
 		rl.reverseList1(head);
 		
 	}
