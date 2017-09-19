@@ -3,13 +3,13 @@ package HashTable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FindAllAnagramsInAString {
+public class FindAllAnagramsInAString438 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		String s = "cbaebabacd";
 		String p = "abc";
-		FindAllAnagramsInAString fa = new FindAllAnagramsInAString();
+		FindAllAnagramsInAString438 fa = new FindAllAnagramsInAString438();
 		List<Integer> res = fa.findAnagrams(s, p);
 		System.out.println(res);
 	}
