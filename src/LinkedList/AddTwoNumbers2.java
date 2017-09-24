@@ -1,13 +1,17 @@
 package LinkedList;
 
+<<<<<<< HEAD
 import interview.ListNode;
 
+=======
+>>>>>>> a5dc90b9f368f271b1982c8efd1f72b2329a8167
 public class AddTwoNumbers2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
 	}
+<<<<<<< HEAD
 	
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // Add from the LSB
@@ -36,6 +40,8 @@ public class AddTwoNumbers2 {
 }
 
 /*
+=======
+>>>>>>> a5dc90b9f368f271b1982c8efd1f72b2329a8167
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         ListNode dummy = new ListNode(-1);
@@ -55,6 +61,7 @@ public class AddTwoNumbers2 {
         return dummy.next;
     }
     
+<<<<<<< HEAD
     
 //     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 //         ListNode head = new ListNode(0);
@@ -114,3 +121,6 @@ public class AddTwoNumbers2 {
     */
 
 */
+=======
+}
+>>>>>>> a5dc90b9f368f271b1982c8efd1f72b2329a8167
