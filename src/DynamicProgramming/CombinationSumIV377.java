@@ -64,6 +64,23 @@ public class CombinationSumIV377 {
 	}
 	
 	
+	public int combinationSum43(int[] nums, int target) {
+		Arrays.sort(nums);
+		int[] res = new int[target+1];
+		for(int i=1; i<res.length; i++) {
+			for(int num: nums) {
+				if(num > i) {
+					break;
+				} else if(num == i) {
+					res[i] += 1;
+				} else {
+					res[i] += res[i-num];
+				}
+			}
+		}
+		return res[target];
+	}
+	
 	
 	
 	
@@ -72,7 +89,7 @@ public class CombinationSumIV377 {
 		CombinationSumIV377 cs = new CombinationSumIV377();
 		int[] nums = new int[]{4, 1, 2};
 		int target = 32;
-		int res = cs.combinationSum42(nums, target);
+		int res = cs.combinationSum43(nums, target);
 		System.out.println(res);
 	}
 
